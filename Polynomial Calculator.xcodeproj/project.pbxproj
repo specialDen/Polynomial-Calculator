@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B6036D62231169F700F69A43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6036D61231169F700F69A43 /* AppDelegate.swift */; };
+		B6036D64231169F700F69A43 /* PolynomialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6036D63231169F700F69A43 /* PolynomialViewController.swift */; };
+		B6036D67231169F700F69A43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6036D65231169F700F69A43 /* Main.storyboard */; };
+		B6036D69231169F800F69A43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6036D68231169F800F69A43 /* Assets.xcassets */; };
+		B6036D6C231169F800F69A43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6036D6A231169F800F69A43 /* LaunchScreen.storyboard */; };
+		B6036D77231169F800F69A43 /* quadratic_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6036D76231169F800F69A43 /* quadratic_CalcTests.swift */; };
+		B6036D82231169F800F69A43 /* quadratic_CalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6036D81231169F800F69A43 /* quadratic_CalcUITests.swift */; };
+		B6122633233EB2FA00450548 /* Complex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6122632233EB2FA00450548 /* Complex.swift */; };
+		B61487CA24F2B6A8003EA08A /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61487C924F2B6A8003EA08A /* CalculatorBrain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B6036D73231169F800F69A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6036D56231169F600F69A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6036D5D231169F600F69A43;
+			remoteInfo = "quadratic Calc";
+		};
+		B6036D7E231169F800F69A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B6036D56231169F600F69A43 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6036D5D231169F600F69A43;
+			remoteInfo = "quadratic Calc";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B6036D5E231169F700F69A43 /* Polynomial Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Polynomial Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6036D61231169F700F69A43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B6036D63231169F700F69A43 /* PolynomialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PolynomialViewController.swift; sourceTree = "<group>"; };
+		B6036D66231169F700F69A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B6036D68231169F800F69A43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6036D6B231169F800F69A43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B6036D6D231169F800F69A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6036D72231169F800F69A43 /* Polynomial CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Polynomial CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6036D76231169F800F69A43 /* quadratic_CalcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quadratic_CalcTests.swift; sourceTree = "<group>"; };
+		B6036D78231169F800F69A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6036D7D231169F800F69A43 /* Polynomial CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Polynomial CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6036D81231169F800F69A43 /* quadratic_CalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quadratic_CalcUITests.swift; sourceTree = "<group>"; };
+		B6036D83231169F800F69A43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6122632233EB2FA00450548 /* Complex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Complex.swift; sourceTree = "<group>"; };
+		B61487C924F2B6A8003EA08A /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		B62A9D0D270DC5A200895A40 /* quadratic Calc-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "quadratic Calc-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6036D5B231169F600F69A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6036D6F231169F800F69A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6036D7A231169F800F69A43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B6036D55231169F600F69A43 = {
+			isa = PBXGroup;
+			children = (
+				B6036D60231169F700F69A43 /* Polynomial Calculator */,
+				B6036D75231169F800F69A43 /* quadratic CalcTests */,
+				B6036D80231169F800F69A43 /* quadratic CalcUITests */,
+				B6036D5F231169F700F69A43 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6036D5F231169F700F69A43 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6036D5E231169F700F69A43 /* Polynomial Calculator.app */,
+				B6036D72231169F800F69A43 /* Polynomial CalculatorTests.xctest */,
+				B6036D7D231169F800F69A43 /* Polynomial CalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6036D60231169F700F69A43 /* Polynomial Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				B62A9D0D270DC5A200895A40 /* quadratic Calc-Bridging-Header.h */,
+				B6036D61231169F700F69A43 /* AppDelegate.swift */,
+				B61487CB24F2C7A7003EA08A /* Controllers */,
+				B61487CC24F2C7B8003EA08A /* Models */,
+				B62A9D0E270DC8FC00895A40 /* Views */,
+				B6036D68231169F800F69A43 /* Assets.xcassets */,
+				B6036D6A231169F800F69A43 /* LaunchScreen.storyboard */,
+				B6036D6D231169F800F69A43 /* Info.plist */,
+			);
+			path = "Polynomial Calculator";
+			sourceTree = "<group>";
+		};
+		B6036D75231169F800F69A43 /* quadratic CalcTests */ = {
+			isa = PBXGroup;
+			children = (
+				B6036D76231169F800F69A43 /* quadratic_CalcTests.swift */,
+				B6036D78231169F800F69A43 /* Info.plist */,
+			);
+			path = "quadratic CalcTests";
+			sourceTree = "<group>";
+		};
+		B6036D80231169F800F69A43 /* quadratic CalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6036D81231169F800F69A43 /* quadratic_CalcUITests.swift */,
+				B6036D83231169F800F69A43 /* Info.plist */,
+			);
+			path = "quadratic CalcUITests";
+			sourceTree = "<group>";
+		};
+		B61487CB24F2C7A7003EA08A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B6036D63231169F700F69A43 /* PolynomialViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B61487CC24F2C7B8003EA08A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B61487C924F2B6A8003EA08A /* CalculatorBrain.swift */,
+				B6122632233EB2FA00450548 /* Complex.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B62A9D0E270DC8FC00895A40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B6036D65231169F700F69A43 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6036D5D231169F600F69A43 /* Polynomial Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6036D86231169F800F69A43 /* Build configuration list for PBXNativeTarget "Polynomial Calculator" */;
+			buildPhases = (
+				B6036D5A231169F600F69A43 /* Sources */,
+				B6036D5B231169F600F69A43 /* Frameworks */,
+				B6036D5C231169F600F69A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Polynomial Calculator";
+			productName = "quadratic Calc";
+			productReference = B6036D5E231169F700F69A43 /* Polynomial Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B6036D71231169F800F69A43 /* Polynomial CalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6036D89231169F800F69A43 /* Build configuration list for PBXNativeTarget "Polynomial CalculatorTests" */;
+			buildPhases = (
+				B6036D6E231169F800F69A43 /* Sources */,
+				B6036D6F231169F800F69A43 /* Frameworks */,
+				B6036D70231169F800F69A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6036D74231169F800F69A43 /* PBXTargetDependency */,
+			);
+			name = "Polynomial CalculatorTests";
+			productName = "quadratic CalcTests";
+			productReference = B6036D72231169F800F69A43 /* Polynomial CalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B6036D7C231169F800F69A43 /* Polynomial CalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6036D8C231169F800F69A43 /* Build configuration list for PBXNativeTarget "Polynomial CalculatorUITests" */;
+			buildPhases = (
+				B6036D79231169F800F69A43 /* Sources */,
+				B6036D7A231169F800F69A43 /* Frameworks */,
+				B6036D7B231169F800F69A43 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6036D7F231169F800F69A43 /* PBXTargetDependency */,
+			);
+			name = "Polynomial CalculatorUITests";
+			productName = "quadratic CalcUITests";
+			productReference = B6036D7D231169F800F69A43 /* Polynomial CalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6036D56231169F600F69A43 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Izuchukwu Dennis";
+				TargetAttributes = {
+					B6036D5D231169F600F69A43 = {
+						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1100;
+					};
+					B6036D71231169F800F69A43 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B6036D5D231169F600F69A43;
+					};
+					B6036D7C231169F800F69A43 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = B6036D5D231169F600F69A43;
+					};
+				};
+			};
+			buildConfigurationList = B6036D59231169F600F69A43 /* Build configuration list for PBXProject "Polynomial Calculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B6036D55231169F600F69A43;
+			productRefGroup = B6036D5F231169F700F69A43 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6036D5D231169F600F69A43 /* Polynomial Calculator */,
+				B6036D71231169F800F69A43 /* Polynomial CalculatorTests */,
+				B6036D7C231169F800F69A43 /* Polynomial CalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6036D5C231169F600F69A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6036D6C231169F800F69A43 /* LaunchScreen.storyboard in Resources */,
+				B6036D69231169F800F69A43 /* Assets.xcassets in Resources */,
+				B6036D67231169F700F69A43 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6036D70231169F800F69A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6036D7B231169F800F69A43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6036D5A231169F600F69A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6036D64231169F700F69A43 /* PolynomialViewController.swift in Sources */,
+				B6122633233EB2FA00450548 /* Complex.swift in Sources */,
+				B6036D62231169F700F69A43 /* AppDelegate.swift in Sources */,
+				B61487CA24F2B6A8003EA08A /* CalculatorBrain.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6036D6E231169F800F69A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6036D77231169F800F69A43 /* quadratic_CalcTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6036D79231169F800F69A43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6036D82231169F800F69A43 /* quadratic_CalcUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6036D74231169F800F69A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6036D5D231169F600F69A43 /* Polynomial Calculator */;
+			targetProxy = B6036D73231169F800F69A43 /* PBXContainerItemProxy */;
+		};
+		B6036D7F231169F800F69A43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B6036D5D231169F600F69A43 /* Polynomial Calculator */;
+			targetProxy = B6036D7E231169F800F69A43 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B6036D65231169F700F69A43 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6036D66231169F700F69A43 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B6036D6A231169F800F69A43 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B6036D6B231169F800F69A43 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6036D84231169F800F69A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6036D85231169F800F69A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6036D87231169F800F69A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66GQ3G43ZB;
+				INFOPLIST_FILE = "Polynomial Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trial.quadratic-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6036D88231169F800F69A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66GQ3G43ZB;
+				INFOPLIST_FILE = "Polynomial Calculator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trial.quadratic-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_PRECOMPILE_BRIDGING_HEADER = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B6036D8A231169F800F69A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66GQ3G43ZB;
+				INFOPLIST_FILE = "quadratic CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trial.quadratic-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polynomial Calculator.app/Polynomial Calculator";
+			};
+			name = Debug;
+		};
+		B6036D8B231169F800F69A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66GQ3G43ZB;
+				INFOPLIST_FILE = "quadratic CalcTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trial.quadratic-CalcTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Polynomial Calculator.app/Polynomial Calculator";
+			};
+			name = Release;
+		};
+		B6036D8D231169F800F69A43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66GQ3G43ZB;
+				INFOPLIST_FILE = "quadratic CalcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trial.quadratic-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "quadratic Calc";
+			};
+			name = Debug;
+		};
+		B6036D8E231169F800F69A43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 66GQ3G43ZB;
+				INFOPLIST_FILE = "quadratic CalcUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "trial.quadratic-CalcUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "quadratic Calc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6036D59231169F600F69A43 /* Build configuration list for PBXProject "Polynomial Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6036D84231169F800F69A43 /* Debug */,
+				B6036D85231169F800F69A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6036D86231169F800F69A43 /* Build configuration list for PBXNativeTarget "Polynomial Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6036D87231169F800F69A43 /* Debug */,
+				B6036D88231169F800F69A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6036D89231169F800F69A43 /* Build configuration list for PBXNativeTarget "Polynomial CalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6036D8A231169F800F69A43 /* Debug */,
+				B6036D8B231169F800F69A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6036D8C231169F800F69A43 /* Build configuration list for PBXNativeTarget "Polynomial CalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6036D8D231169F800F69A43 /* Debug */,
+				B6036D8E231169F800F69A43 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6036D56231169F600F69A43 /* Project object */;
+}
